@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-family: 'Poppins';
+    font-size: 100%;
+    background-color: #fff;
+}
+
+p{
+    font-size: 16.6px;
+}
+
+
+/*TOP-LOGO*/
+header {
+    width: 100%;
+    
+}
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.top-logo img{ 
+    width: 300px;
+    height: 123px;
+}
+.navegacao ul{
+    list-style: none;
+    display: flex;
+}
+
+.navegacao ul li {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.navegacao ul li a:hover{
+    border-bottom:10px solid #000 ;
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+
+/*PAGINA INICIAL*/
+.container-banner {
+    background-color: #2f86d6;
+    width: 100%;
+    height: 60vh;
+}
+
+.content-banner {
+    width: 1024px;
+    margin: 10px auto;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content-banner h1 {
+    font-size: 29px;
+}
+
+.content-banner div{
+    padding: 60px;
+}
+.content-banner div p span {
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.content-banner div h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content-banner p {
+    line-height: 23px;
+}
+
+.content-banner img {
+    width: 45%;
+}
+
+
+/*SECÇÃO ANUNCIO*/
+.anuncio-1{
+    background-color: #233032;
+    color: #fff;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.anuncio-1 div {
+    padding: 20px;
+    margin-left: 16%;
+}
+
+.anuncio-1 div  h2{
+    font-size: 20px;
+}
+.anuncio-1 a {
+    text-decoration: none;
+    background-color: #2f86d6;
+    color: #fff;
+    padding: 17px;
+    border-radius: 5px;
+    position: absolute;
+    left: 70%;
+    font-weight: 700;
+}
+
+
+ /*SECÇÃO SOBRE*/
+.container-sobre, .perguntas-frequente {
+    width: 100%;
+    padding: 40px;
+    line-height: 30px;
+}
+
+.content-sobre {
+    width: 930px;
+    margin: 20px auto;
+}
+.content-sobre h2{
+    font-size: 35px;
+    font-weight: 600;
+    color: #2f86d6;
+    margin-bottom: 10px;
+}
+.content-sobre h3{
+    background-color: #2f85d611;
+    width: 150px;
+    padding: 3px;
+    border: 1px solid #2f86d6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    
+}
+.content-sobre  p {
+    text-align: justify;
+}
+.content-sobre p:last-of-type{
+    font-style: italic;
+    color: #2f86d6;
+    line-height: 32px;
+}
+
+
+ /*SECÇÃO PERGUNTAS*/
+.perguntas-frequente{
+    width: 1024px;
+    margin: 15px auto;
+}
+.perguntas-frequente h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.perguntas-frequente p {
+    margin: 20px;
+}
+.pergunta1 h4,.pergunta2 h4, .pergunta3 h4, .pergunta4 h4 {
+    font-size: 18px;
+    color: #2f86d6;
+}
+.pergunta1 p,.pergunta2 p, .pergunta3 p, .pergunta4 p{
+    opacity: 0.4;
+    font-weight: 500;    
+} 
+
+/*RODAPÉ*/
+
+.rodapé{
+    width: 100%;
+    background-color: #2f86d6;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.rodapé .menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+.rodapé .menu ul li {
+    margin: 5px;
+}
+.rodapé .menu ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.rodapé .menu ul li a:hover{
+    color: #fff;
+}
+
+.seta {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    top: 1px;
+    right: 19px;
+}
+.seta img {
+    padding: 10px;
+}
+
+
+/*PAGINA INFORMAÇÃO*/
+.info-header  {
+    background-color: #2f86d6;
+}
+
+.Informação{
+    padding: 50px 0px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.Informação div {
+    text-align: center;
+}
+.Informação h2 {
+    width: 900px;
+    font-size: 31px;
+    margin: 0px auto 60px;
+}
+
+.Informação h2 span {
+    color: #2f86d6;
+}
+
+
+.Informação img {
+    width: 80px;
+}
+.container-info {
+    display: flex;
+    width: 900px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.container-infodiv h3{
+    font-size: 17px;
+    padding: 15px;
+}
+
+.container-info div p {
+    font-size: 14px;
+}
+
+.content-info{
+    width: 930px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.content-info .img-info img{
+    width: 500px;
+}
+
+.content-info .lista  h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2f86d6;
+}
+.content-info .lista ul {
+    list-style: circle;
+}
+.content-info .lista ul li {
+    margin-bottom: 20px;
+}
+
+
+/*PLANOS*/
+.Planos {
+    background-color: #f6f6f6;
+    width: 100%;
+    min-width: 350px;
+    height: 100vh;
+    text-align: center;
+    padding: 81px 0px;
+}
+
+.Planos h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.Planos h2 span{
+    color: #2f86d6;
+   }
+
+.tabela table {
+    border-radius: 4px;
+    margin: auto;
+    box-shadow: 0px 2px 30px 10px rgba(47,134,214,1);
+    min-width: 350px;
+}
+
+.tabela table thead th {
+    text-align: center;
+    background-color: #ffffff;
+}
+.tabela table thead th h3 {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.tabela table thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #3e8ae0;
+}
+
+.linha-impar {
+    background-color: #d5e6eed8;
+}
+
+.linha-par {
+    background-color: #ffffff;
+}
+.tabela table tbody td {
+    width: 250px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+}
+.tabela table thead th img {
+    width: 100px;
+    margin: auto;
+}
+
+.tabela img{
+    width: 90px;
+}
+
+/*CONTEUDO PLANO*/
+.content-planos{
+    width: 1024px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.content-planos .img-plano img{
+    width: 600px;
+}
+.content-planos .txt-plano h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.content-planos .txt-plano ul li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+/*PÁGINA PREÇO*/
+.Tabela-preço {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.Tabela-preço table {
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    
+}
+
+.Tabela-preço table .celula-cabeçalho {
+    background-color: #f6f6f6;
+    padding: 15px;
+    width: 1200px;
+}
+
+.Tabela-preço table .celula-cabeçalho p{
+    color: #bebaba;
+    font-size: 12px;
+}
+
+.Tabela-preço table .celula-cabeçalho h2 {
+    font-size: 30px;
+}
+
+.Tabela-preço table tbody td {
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+  }
+
+  .Tabela-preço table .celula-1 {
+    background-color: #d3d3d38a;
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    width: 1250px;
+}
+
+.Tabela-preço table tbody td {
+    width: 450px;
+    max-width: 1024px;
+    text-align: center;
+    font-weight: 400;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.Tabela-preço .marcador-azul {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #2f86d6;
+    border-radius: 100px;
+}
+
+/*PAGINA CONTACTO*/
+.header-contacto {
+    background-color: #2f86d6;
+}
+.container-contacto {
+    width: 100%;
+    height: 80vh;
+}
+.content-contact {
+    width: 930px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 30px;
+
+}
+.formulário {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(32, 31, 31, 0.1);
+}
+
+.img-contacto p span {
+    color: #2f86d6;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    border: 1px solid #2f86d6;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover{
+    background-color: #2f86d6;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.redes-sociais img{
+    width: 30px;
+}
+/*-----------------------FIM DAS  PÁGINA------------------------------*/
